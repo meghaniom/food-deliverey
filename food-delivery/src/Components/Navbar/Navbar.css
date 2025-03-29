@@ -1,0 +1,46 @@
+.navbar {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body {
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.app {
+    width: 80%;
+    margin: auto;
+}
+.navbar .logo {
+    width: 150px;
+
+}
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #49557e;
+    font-size: 18px;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar button {
+    padding: 10px 30px;
+    font-size: 16px;
+    background-color: transparent;
+    color: #49557e;
+    border: 1px solid  tomato;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.navbar button:hover {
+    background-color: #fff4f2;
+}
