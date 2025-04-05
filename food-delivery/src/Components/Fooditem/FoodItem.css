@@ -64,3 +64,11 @@
     width: 30px;
     
 }
+@media (max-width:420px) {
+    .food-item {
+        margin-bottom: 20px;
+        display: block;
+        width: 100%;
+    }
+    
+}

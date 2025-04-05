@@ -13,3 +13,16 @@
     gap: 30px;
     row-gap: 50px;
 }
+@media (max-width: 420px) {
+    .food-display h2  {
+        text-align: center;
+        display: block;
+        margin-bottom: 15px;
+    }
+    .food-display-list {
+        display: block;
+        width: 100%;
+        /* margin-bottom: 15px; */
+    }
+    
+}
